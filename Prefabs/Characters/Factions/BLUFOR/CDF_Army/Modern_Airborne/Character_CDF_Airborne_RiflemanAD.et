@@ -1,0 +1,21 @@
+SCR_ChimeraCharacter : "{9275A3F9875F9498}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{68C6A421B617C0B2}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{68C6A421B617C0BB}" {
+      m_sVariantPrefab "{57702A10B956DD19}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Variants/Character_CDF_Airborne_RiflemanAD_1.et"
+     }
+     SCR_EditableEntityVariant "{68C6A421B617C0B9}" {
+      m_sVariantPrefab "{3B241EF005925237}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Variants/Character_CDF_Airborne_RiflemanAD_2.et"
+     }
+     SCR_EditableEntityVariant "{68C6A421B617C0A6}" {
+      m_sVariantPrefab "{DEB852090977C55C}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Variants/Character_CDF_Airborne_RiflemanAD_3.et"
+     }
+    }
+   }
+  }
+ }
+}

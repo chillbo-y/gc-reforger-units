@@ -7,5 +7,12 @@ SCR_ChimeraCharacter : "{10804BFD95F5DAC1}Prefabs/Characters/Factions/BLUFOR/US_
     IconSetName "EditableEntity_Character_Driver"
    }
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{DA1912123AECBD97}Prefabs/Characters/HeadGear/Helmet_CVC_01/Helmet_CVC_01_olive.et"
+    }
+   }
+  }
  }
 }

@@ -1,0 +1,16 @@
+Turret : "{CA49BE2077B36CEF}Prefabs/Vehicles/Wheeled/IvecoLMV/VehParts/Turret/LMV_gun_mount_M2_PAS13_Shield.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{69020ECA4799DE30}" {
+     SourceMaterial "IvecoLMV_TowerTurret"
+     AssignedMaterial "{861FD9134144917A}Assets/Vehicles/Wheeled/IvecoLMV/Dst/Gunner_Tower/Data/IvecoLMV_TowerTurret.emat"
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{07E82C7BC849DF9A}Prefabs/Weapons/HeavyWeapons/m2hb/HMG_M2HB_pintle_M1025_optic_pas13g_Shield_O.et"
+  }
+ }
+}

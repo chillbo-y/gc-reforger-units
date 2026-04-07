@@ -1,0 +1,88 @@
+SCR_ChimeraCharacter : "{9275A3F9875F9498}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Mortar Crew"
+    Icon "{A489F552FB7489C3}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Custom.edds"
+    m_Image "{070D4C86CB2C2B15}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_MortarG.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{E3FD7B51E0F21123}Prefabs/Weapons/Rifles/AR15/Rifle_Pronto_C8A1_BLK_CDF.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C8E2AC206E2F5665}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_hc_v_r_p_cmc.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{6032FED0F944E61B}Prefabs/Characters/Uniforms/Jacket_PCU_L5/Jacket_PCU_L5_Green.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{4A11957AAD447582}Prefabs/Characters/Vests/Vest_JPC/Vest_JPC_MC.et"
+    }
+    LoadoutSlotInfo Pants {
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{09E2F277F5B672E8}Prefabs/Characters/Footwear/Solomon_4dgtx.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{9E6B8BFB0BFBEC2E}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_MC2.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{786BBF5BFCCFBD5E}Prefabs/Characters/Handwear/Ferro_gloves/Ferro_gloves.et"
+    }
+    LoadoutSlotInfo Face {
+     Prefab "{75F3ED41A7F79D93}Prefabs/Characters/HeadGear/Masks/Masks_Keela_Snood/Masks_Keela_Snood_MC.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68B1631B3C4B9FB7}" {
+     TargetStorage "Jacket/Jacket_PCU_L5_Green.et"
+    }
+    ItemsInitConfigurationItem "{68FCC59081598FBC}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_MC2.et/Pouch1/Pouch_avs_front_closed_MC.et"
+     PrefabsToSpawn {
+      "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et" "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et" "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FCC59081598FB3}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_MC2.et/tako/Pouch_FILBE_doubleM4_1.et"
+     PrefabsToSpawn {
+      "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et" "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FCC59081598FB2}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_MC2.et/tako2/Pouch_FILBE_doubleM4_2.et"
+     PrefabsToSpawn {
+      "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et" "{2EBF60EF24B108FC}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FCC59081598FB5}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_MC2.et/pistolpouch2/Pouch_Filbe_M67_Base.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FCC59081598FB4}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_MC2.et/pistolpouch3/Pouch_Filbe_M67_2.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FCC59081598FB7}" {
+     TargetStorage "Vest/Vest_JPC_okinawa_MC2.et/m18/Pouch_Filbe_M18_2.et"
+     PrefabsToSpawn {
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+   }
+  }
+ }
+}

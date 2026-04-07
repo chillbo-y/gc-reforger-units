@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{5BF27AB54D2AC7CC}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/M2/JLTV_OGPK_M2_PAS_O.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

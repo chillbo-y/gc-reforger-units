@@ -13,11 +13,14 @@ SCR_ChimeraCharacter : "{0E6D12E696498921}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{41AAE24CF2BD0635}Prefabs/Characters/Vests/Vest_IBA/Variants/IBA/Vest_IBA_base_f_Collar-v2_CB.et"
+    }
     LoadoutSlotInfo Back {
      Prefab "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{541A06BBBA3C8569}Prefabs/Characters/Vests/Vest_PCGen_II/Variants/Vest_PCGen_II_rifleman.et"
+     Prefab "{791E4C94F6E5437F}Prefabs/Characters/Vests/Vest_MOLLE_Rig/Vest_MOLLE-Rig_machinegunner_v3_wdl.et"
     }
     LoadoutSlotInfo HandWear {
      Prefab "{D19C474FA0F42CC4}Prefabs/Characters/Handwear/Gloves_Pilot_US_01/Gloves_Pilot_US_01.et"
@@ -26,28 +29,28 @@ SCR_ChimeraCharacter : "{0E6D12E696498921}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{69070822F20FC8A0}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_machinegunner_v3_wdl.et/Slot_L21/Pouch_MOLLE-MG_SAW_100rnd.et"
+     PrefabsToSpawn {
+      "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69070822C8400D61}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_machinegunner_v3_wdl.et/Slot_R21/Pouch_MOLLE-MG_SAW_100rnd.et"
+     PrefabsToSpawn {
+      "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
+     }
+    }
     ItemsInitConfigurationItem "{68E911A59F6C95C4}" {
      TargetStorage "Back/FILBE_Backpack.et"
      PrefabsToSpawn {
-      "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et" "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et" "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et" "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
+      "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et" "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{68E911A59F6C95D1}" {
-     TargetStorage "Vest/Vest_PCGen_II_rifleman.et/m67/Pouch_Filbe_M67_2.et"
+     TargetStorage "Vest/Vest_MOLLE-Rig_machinegunner_v3_wdl.et/Slot_R12/Pouch_MOLLE-MG_base.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
-     }
-    }
-    ItemsInitConfigurationItem "{68E911A59F6C95D7}" {
-     TargetStorage "Vest/Vest_PCGen_II_rifleman.et/m67_2/Pouch_Filbe_M67_2.et"
-     PrefabsToSpawn {
-      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
-     }
-    }
-    ItemsInitConfigurationItem "{68E911A59F6C95D6}" {
-     TargetStorage "Vest/Vest_PCGen_II_rifleman.et/m18/Pouch_Filbe_M18_1.et"
-     PrefabsToSpawn {
-      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
    }

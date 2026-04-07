@@ -1,0 +1,93 @@
+GenericEntity : "{BCFDDDC7EF1A030D}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_1.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{690CF53523A60A4E}" {
+     SourceMaterial "LP_LOWER_ASSEMBLY"
+     AssignedMaterial "{1AD512E0B0A7BEC5}Assets/Weapons/Rifles/m4a1/Data/DO_M4A1/LP_LOWER_ASSEMBLY_DOMK18.emat"
+    }
+   }
+  }
+  RHS_SGC_RadialMenuComponent "{5E0ED058CD731BC8}" {
+   m_sDisplayName "#RHS-Weapon_DOMK18_Name"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "#RHS-Weapon_DOMK18_Name"
+     Description "#RHS-Weapon_DOMK18_Description"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDA2E5FAA2B6}" {
+     AttachmentSlot InventoryStorageSlot Buttstock {
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDA47E3F452D}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+      Prefab "{8347F5847566D85B}Prefabs/Weapons/Attachments/Handguards/Handguard_AR15_DD/BLK/RHS_M4A1_DD9_55_BLK.et"
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDA70372C8BA}" {
+     AttachmentSlot InventoryStorageSlot Barrel {
+      Prefab "{353D8D9AAA8F68D1}Prefabs/Weapons/Rifles/M4A1/base_parts/RHS_M4_DD 10_3.et"
+     }
+    }
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot Optics {
+      Enabled 1
+      Prefab "{7BB2A49CD128753E}Prefabs/Weapons/Attachments/Optics/Collimators/Optic_TrijiconMRO/Collim_MRO.et"
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE949ECF03E3}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{5EA2BE9573F14F0C}" {
+      Prefab "{0FFFB0BCE1A21A2E}Prefabs/Weapons/Attachments/Lasers/anpeq16/Laser_ANPEQ16.et"
+     }
+    }
+    AttachmentSlotComponent "{609EE5047488AAA1}" {
+     AttachmentSlot InventoryStorageSlot REAR_IRONSIGHT {
+     }
+    }
+    AttachmentSlotComponent "{609EE504E194D66F}" {
+     AttachmentSlot InventoryStorageSlot FRONT_IRONSIGHT {
+     }
+    }
+    AttachmentSlotComponent "{629ADD528EE856C1}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot "{629ADD52ACAC8DC6}" {
+      Prefab "{04332BCD7FF84920}Prefabs/Weapons/Attachments/Lights/Light_wml_blk.et"
+     }
+    }
+    AttachmentSlotComponent "{690CF53523A60A61}" {
+     AttachmentSlot InventoryStorageSlot "{690CF52101257C9D}" {
+      DisablePhysicsInteraction 1
+     }
+     ShowInInspection 1
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{626713EF43D3CC9E}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Offset 0 0 -0.104
+        Prefab "{CB2ED665F4671DDA}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_RC3.et"
+        InspectionWidgetOffset 0 0.0812 0.3717
+       }
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       EffectPosition EntitySlotInfo "{C9B3271BB85B5D32}" {
+        Offset 0 0 -0.0969
+       }
+      }
+     }
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "#RHS-Weapon_DOMK18_Name"
+    Description "#RHS-Weapon_DOMK18_Description"
+   }
+  }
+ }
+ coords 1043.481 51.269 1351.429
+}

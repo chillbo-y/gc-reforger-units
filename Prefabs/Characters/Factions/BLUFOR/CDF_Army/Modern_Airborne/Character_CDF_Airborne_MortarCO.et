@@ -1,0 +1,21 @@
+SCR_ChimeraCharacter : "{9275A3F9875F9498}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{68FCC591077768A2}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{68FCC5910777695E}" {
+      m_sVariantPrefab "{80882EAC4E8FC43C}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Variants/Character_CDF_Airborne_MortarCO_1.et"
+     }
+     SCR_EditableEntityVariant "{68FCC59107776952}" {
+      m_sVariantPrefab "{ECDC1A4CF24B4B12}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Variants/Character_CDF_Airborne_MortarCO_2.et"
+     }
+     SCR_EditableEntityVariant "{68FCC59107776955}" {
+      m_sVariantPrefab "{094056B5FEAEDC79}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Variants/Character_CDF_Airborne_MortarCO_3.et"
+     }
+    }
+   }
+  }
+ }
+}

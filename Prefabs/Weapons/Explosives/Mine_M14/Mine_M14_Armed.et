@@ -1,0 +1,8 @@
+GenericEntity : "{E4C9F0A4090CFE4D}Prefabs/Weapons/Explosives/Mine_M14/Mine_M14.et" {
+ ID "5968D2B6A82C6019"
+ components {
+  SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+   m_bLive 1
+  }
+ }
+}

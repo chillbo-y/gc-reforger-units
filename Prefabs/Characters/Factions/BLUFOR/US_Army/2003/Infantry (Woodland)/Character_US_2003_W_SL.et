@@ -18,6 +18,8 @@ SCR_ChimeraCharacter : "{917BD93D68DF38C2}Prefabs/Characters/Factions/BLUFOR/US_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Squad Leader"
+    Icon "{EE0B4CDEA86FC24A}UI/Textures/DeployMenu/LoadoutIcons/LoadoutIcons.imageset"
+    IconSetName "EditableEntity_Character_Leader_Team"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -26,7 +28,12 @@ SCR_ChimeraCharacter : "{917BD93D68DF38C2}Prefabs/Characters/Factions/BLUFOR/US_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{E685A8D337D36204}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_cover_w_goggles.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{CD3BD25A0B1117D7}Prefabs/Characters/Vests/Vest_IBA/Variants/IBA/Vest_IBA_ThroatP_v3_wdl.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{211BCADE61420369}Prefabs/Characters/Vests/Vest_MOLLE_Rig/Vest_MOLLE-Rig_rifleman_v4.et"
     }
     LoadoutSlotInfo HandWear {
      Prefab "{D19C474FA0F42CC4}Prefabs/Characters/Handwear/Gloves_Pilot_US_01/Gloves_Pilot_US_01.et"
@@ -36,6 +43,33 @@ SCR_ChimeraCharacter : "{917BD93D68DF38C2}Prefabs/Characters/Factions/BLUFOR/US_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
+    }
+    ItemsInitConfigurationItem "{685884CC62FBB402}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v4.et/Slot_L11/Pouch_MOLLE-M16_base.et"
+     PrefabsToSpawn {
+      "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M856_Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{685884CC62AC9436}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v4.et/Slot_L12/Pouch_MOLLE-M16_base.et"
+    }
+    ItemsInitConfigurationItem "{6906D30DADF48346}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v4.et/Slot_R12/Pouch_MOLLE-M16Open_base.et"
+    }
+    ItemsInitConfigurationItem "{6906D30DAA1D785B}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v4.et/Slot_R21/Pouch_MOLLE-Grenade_base.et"
+    }
+    ItemsInitConfigurationItem "{6906D30DBB87F8B0}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v4.et/GP_BR1/Pouch_MOLLE-IFAK_base.et"
+    }
+    ItemsInitConfigurationItem "{685884CC61506385}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v4.et/Slot_R13/Pouch_MOLLE-MG_SAW_100rnd.et"
+    }
+    ItemsInitConfigurationItem "{6906D30E2453B08E}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v4.et/Slot_L13/Pouch_MOLLE-M16_CB.et"
+     PrefabsToSpawn {
+      "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et"
+     }
     }
    }
   }

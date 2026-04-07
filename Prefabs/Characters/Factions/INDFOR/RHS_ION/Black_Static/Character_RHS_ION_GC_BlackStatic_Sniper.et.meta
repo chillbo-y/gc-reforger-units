@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{8F65D8922DE5373C}Prefabs/Characters/Factions/INDFOR/RHS_ION/Black_Static/Character_RHS_ION_GC_BlackStatic_Sniper.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

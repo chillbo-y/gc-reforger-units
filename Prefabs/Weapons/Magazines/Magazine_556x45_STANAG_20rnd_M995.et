@@ -1,0 +1,22 @@
+GenericEntity : "{D07D31192AF5E7C4}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "5.56x45mm 20Rnd AR15 M955 Mag"
+     Description "Radway Green magazine loaded with M955 Armor Piercing Rounds."
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "5.56x45mm 20Rnd AR15 M955 Mag"
+    Description "Radway Green magazine loaded with M955 Armor Piercing Rounds."
+    m_sAmmoType "AP"
+    m_eAmmoTypeFlags AP
+   }
+   AmmoConfig "{BAB38CC4592C81A5}Configs/Weapons/Ammo/Ammo_556x45_M995.conf"
+  }
+ }
+}

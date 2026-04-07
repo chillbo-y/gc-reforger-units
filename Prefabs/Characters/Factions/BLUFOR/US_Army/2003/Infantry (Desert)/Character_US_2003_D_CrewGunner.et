@@ -18,6 +18,9 @@ SCR_ChimeraCharacter : "{C2D1F12C893279D2}Prefabs/Characters/Factions/BLUFOR/US_
     LoadoutSlotInfo Back {
      Prefab "{78AD6277BCA654C4}Prefabs/Items/Equipment/Radios/US/Radio_M81_GC_PRC119.et"
     }
+    LoadoutSlotInfo Vest {
+     Prefab "{18E8AF076E52FC90}Prefabs/Characters/Vests/Vest_MOLLE_Rig/Vest_MOLLE-Rig_crew.et"
+    }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {

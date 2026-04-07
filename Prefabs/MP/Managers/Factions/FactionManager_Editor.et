@@ -36,5 +36,7 @@ SCR_FactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionMana
   }
   SCR_Faction "{6893355199B1327F}" : "{055496607B698CBE}Configs/Factions/GC_DON.conf" {
   }
+  SCR_Faction "{6906E940868BEBAE}" : "{01D7E2ADE73BB975}Configs/Factions/GC_IRAQ.conf" {
+  }
  }
 }

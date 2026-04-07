@@ -1,0 +1,89 @@
+GenericEntity : "{6993C08FA6BAA2FE}Prefabs/Weapons/Rifles/AR15/Rifle_Pronto_AR15_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{68B2CD1F2D857D97}" {
+     SourceMaterial "AR15_Markings"
+     AssignedMaterial "{DD812B648E405A9F}Assets/Weapons/Rifles/AR15/Data/AR15_Markings_03.emat"
+    }
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "C8A1"
+    }
+   }
+  }
+  SlotManagerComponent "{66F2A16DA2FC6CAC}" {
+   Slots {
+    EntitySlotInfo Handguard {
+     Prefab "{7C96F0ACC3911312}Prefabs/Weapons/Attachments/Handguards/Handguard_Barrels/Pronto_Barrel_M4_145.et"
+    }
+    EntitySlotInfo Handguard2 : Handguard {
+     Offset 0 0 -0.0053
+     Prefab "{29132918E80112A7}Prefabs/Weapons/Attachments/Handguards/Handguard_AR_ReTex/Pronto_Handguard_M4_C8_BLK.et"
+    }
+    EntitySlotInfo Rail : Handguard {
+     PivotID "slot_barrel_muzzle"
+     Offset 0 0 -0.1409
+     Prefab "{238F55C1360F5FFD}Prefabs/Weapons/Attachments/Handguards/Rail_Diemaco_TRIAD/Pronto_Rail_Diemaco_TRIAD_01.et"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5F16E0B4B2D0D72C}" {
+     AttachmentSlot InventoryStorageSlot BayonetSlot {
+      Offset 0 -0.0294 0.0042
+     }
+    }
+    AttachmentSlotComponent "{66F2A16839D0CBDD}" {
+     Enabled 0
+    }
+    AttachmentSlotComponent "{66F2A168B459C24F}" {
+     AttachmentSlot InventoryStorageSlot HandguardRISRight {
+      Offset 0.034 -0.0312 0.3191
+     }
+    }
+    AttachmentSlotComponent "{66F2A168DCB785E0}" {
+     AttachmentSlot InventoryStorageSlot HandguardRISLeft {
+      Offset -0.034 -0.0312 0.3191
+     }
+    }
+    AttachmentSlotComponent "{66F2A16B6AA86E01}" {
+     Enabled 0
+    }
+    AttachmentSlotComponent "{66F2AD69274BDAE9}" {
+     AttachmentSlot InventoryStorageSlot Optic {
+      Offset 0 0 0.0428
+      Prefab "{DA2AED4A5F958164}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230.et"
+     }
+    }
+    AttachmentSlotComponent "{66F51D4144D969AC}" {
+     AttachmentSlot InventoryStorageSlot Stock {
+      Prefab "{80AF8CF75F86BC30}Prefabs/Weapons/Attachments/Stocks/Diemaco_Stock/Pronto_Stock_Diemaco_01_BLK.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{5D527627CCB8F756}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Offset 0 0 -0.0003
+       }
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       EffectPosition EntitySlotInfo "{C9B3271BB85B5D32}" {
+        Offset 0 0 0.017
+       }
+      }
+     }
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "C8A1"
+   }
+  }
+ }
+}

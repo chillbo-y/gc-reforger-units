@@ -1,0 +1,16 @@
+Turret : "{2E220937907E1278}Prefabs/Vehicles/Wheeled/IvecoLMV/VehParts/Turret/LMV_gun_mount_MK19_Shield.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{68FB29E04A480DF1}" {
+     SourceMaterial "IvecoLMV_TowerTurret"
+     AssignedMaterial "{8B4993E8E82C6516}Assets/Vehicles/Wheeled/IvecoLMV/Dst/Gunner_Tower/Data/IvecoLMV_TowerTurret_Tan.emat"
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{EE35CDE258EFE318}Prefabs/Weapons/HeavyWeapons/MK19/GL_MK19_pintle_M1151.et"
+  }
+ }
+}

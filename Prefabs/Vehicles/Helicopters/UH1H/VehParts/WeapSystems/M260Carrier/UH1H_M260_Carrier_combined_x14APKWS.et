@@ -1,0 +1,11 @@
+Turret : "{E0F357776E9D3A2C}Prefabs/Vehicles/Helicopters/UH1H/VehParts/WeapSystems/M260Carrier/UH1H_M260_Carrier_combined_x38HEDP.et" {
+ ID "4B42E71698F5739C"
+ components {
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{E5BB69F029CC82A5}Prefabs/Weapons/AircraftWeapons/RocketPods/Pod_M260_Loaded_HE_M229_APKWS.et"
+  }
+  WeaponSlotComponent "{61A6A09E71318336}" {
+   WeaponTemplate "{E5BB69F029CC82A5}Prefabs/Weapons/AircraftWeapons/RocketPods/Pod_M260_Loaded_HE_M229_APKWS.et"
+  }
+ }
+}

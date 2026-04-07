@@ -1,0 +1,24 @@
+Vehicle : "{FBA3F21384B6E649}Prefabs/Vehicles/Wheeled/JLTV/OGPK/MK19/JLTV_MK19_OGPK.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{68FB221CF54047ED}" {
+     SourceMaterial "Main_Body"
+     AssignedMaterial "{545C8860A582F3EF}Assets/Vehicles/Wheeled/JLTV/data/Main_Body_Green.emat"
+    }
+    MaterialAssignClass "{68FB221CF54047DE}" {
+     SourceMaterial "Main_Body_Interior"
+     AssignedMaterial "{402410DD6F21C73C}Assets/Vehicles/Wheeled/JLTV/data/Main_Body_Green_Interior.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{1024D24BD2DE500F}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/JLTV_MK19_OGPK_Woodland.et"
+    }
+   }
+  }
+ }
+}

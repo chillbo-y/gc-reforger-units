@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{6A49DD0B2FD49FFF}Prefabs/Groups/BLUFOR/US/Marines/2009/Marine Rifles/Group_USMC_2009_ATSquad_D.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -15,8 +15,11 @@ SCR_ChimeraCharacter : "{C2D1F12C893279D2}Prefabs/Characters/Factions/BLUFOR/US_
    Slots {
     LoadoutSlotInfo Hat {
     }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{9A37976A4495D054}Prefabs/Characters/Vests/Vest_IBA/Variants/IBA/Vest_IBA_base_Collar-v2_wdl.et"
+    }
     LoadoutSlotInfo Vest {
-     Prefab "{156DC7109CEE6F69}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_AR.et"
+     Prefab "{9224F925A79863F5}Prefabs/Characters/Vests/Vest_MOLLE_Rig/Vest_MOLLE-Rig_machinegunner.et"
     }
    }
   }
@@ -26,22 +29,21 @@ SCR_ChimeraCharacter : "{C2D1F12C893279D2}Prefabs/Characters/Factions/BLUFOR/US_
      TargetStorage "Pants/Pants_US_DCU.et"
     }
     ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
-     TargetStorage "Vest/Vest_ALICE_AR.et/Suspenders/Vest_ALICE_suspenders_2.et"
     }
     ItemsInitConfigurationItem "{685884C8905FDA6F}" {
-     TargetStorage "Vest/Vest_ALICE_AR.et/MagPouch/Pouch_ALICE_200rnd_M249.et"
+     TargetStorage "Vest/Vest_MOLLE-Rig_machinegunner.et/Slot_L13/Pouch_ALICE_200rnd_M249.et"
      PrefabsToSpawn {
       "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{685884C89012D9C2}" {
-     TargetStorage "Vest/Vest_ALICE_AR.et/MagPouch2/Pouch_ALICE_200rnd_M249.et"
+     TargetStorage "Vest/Vest_MOLLE-Rig_machinegunner.et/Slot_R13/Pouch_ALICE_200rnd_M249.et"
      PrefabsToSpawn {
       "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{685884C890D5A10D}" {
-     TargetStorage "Vest/Vest_ALICE_AR.et/Buttpack/Vest_ALICE_buttpack.et"
+     TargetStorage "Vest/Vest_MOLLE-Rig_machinegunner.et/Waistpack/Vest_ALICE_buttpack.et"
      PrefabsToSpawn {
       "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
      }

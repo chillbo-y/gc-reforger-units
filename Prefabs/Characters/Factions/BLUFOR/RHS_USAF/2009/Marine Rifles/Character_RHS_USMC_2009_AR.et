@@ -14,10 +14,10 @@ SCR_ChimeraCharacter : "{0E6D12E696498921}Prefabs/Characters/Factions/BLUFOR/RHS
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Back {
-     Prefab "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
+     Prefab "{DA230EFEAFF68C8D}Prefabs/Items/Equipment/Backpacks/Backpack_MOLLE-weistpack_base.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{541A06BBBA3C8569}Prefabs/Characters/Vests/Vest_PCGen_II/Variants/Vest_PCGen_II_rifleman.et"
+     Prefab "{9C82006DFA00D414}Prefabs/Characters/Vests/Vest_MOLLE_Rig/Vest_MOLLE-Rig_machinegunner_v2.et"
     }
     LoadoutSlotInfo HandWear {
      Prefab "{D19C474FA0F42CC4}Prefabs/Characters/Handwear/Gloves_Pilot_US_01/Gloves_Pilot_US_01.et"
@@ -26,28 +26,22 @@ SCR_ChimeraCharacter : "{0E6D12E696498921}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{68E911A6268A9721}" {
-     TargetStorage "Back/FILBE_Backpack.et"
+    ItemsInitConfigurationItem "{690708238144821B}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_machinegunner_v2.et/Slot_R13/Pouch_ALICE_200rnd_M249.et"
      PrefabsToSpawn {
-      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et" "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68E911A6268A9721}" {
+     TargetStorage "Back/Backpack_MOLLE-weistpack_base.et"
+     PrefabsToSpawn {
+      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{68E911A6268A8BC1}" {
-     TargetStorage "Vest/Vest_PCGen_II_rifleman.et/m67/Pouch_Filbe_M67_2.et"
+     TargetStorage "Vest/Vest_MOLLE-Rig_machinegunner_v2.et/Slot_L22/Pouch_MOLLE-Grenade_bandage.et"
      PrefabsToSpawn {
       "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
-     }
-    }
-    ItemsInitConfigurationItem "{68E911A6268A8BCE}" {
-     TargetStorage "Vest/Vest_PCGen_II_rifleman.et/m67_2/Pouch_Filbe_M67_2.et"
-     PrefabsToSpawn {
-      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
-     }
-    }
-    ItemsInitConfigurationItem "{68E911A6268A1890}" {
-     TargetStorage "Vest/Vest_PCGen_II_rifleman.et/m18/Pouch_Filbe_M18_1.et"
-     PrefabsToSpawn {
-      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
    }

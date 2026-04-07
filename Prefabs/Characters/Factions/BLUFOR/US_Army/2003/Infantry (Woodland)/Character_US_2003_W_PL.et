@@ -7,6 +7,7 @@ SCR_ChimeraCharacter : "{96BC236C0E598201}Prefabs/Characters/Factions/BLUFOR/US_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Platoon Leader"
+    IconSetName "EditableEntity_Character_SquadLeaderALT"
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
@@ -14,32 +15,52 @@ SCR_ChimeraCharacter : "{96BC236C0E598201}Prefabs/Characters/Factions/BLUFOR/US_
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
-    LoadoutSlotInfo Hat {
-     Prefab "{E685A8D337D36204}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_cover_w_goggles.et"
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{EE794346C5F99A00}Prefabs/Characters/Vests/Vest_IBA/Variants/OTV/Vest_OTV_CollarP_base.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{2E8829632CBA7A9B}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_commander.et"
+     Prefab "{0ABD66426119736E}Prefabs/Characters/Vests/Vest_MOLLE_Rig/Vest_MOLLE-Rig_rifleman_v3_wdl.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab ""
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
-     TargetStorage "Vest/Vest_ALICE_commander.et/Suspenders/Vest_ALICE_suspenders_2.et"
     }
     ItemsInitConfigurationItem "{685884CC62FBB402}" {
-     TargetStorage "Vest/Vest_ALICE_commander.et/MagPouch/Pouch_ALICE_30rnd_STANAG.et"
-     PrefabsToSpawn {
-      "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M856_Tracer.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
-     }
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v3_wdl.et/Slot_L21/Pouch_MOLLE-M16_base.et"
     }
     ItemsInitConfigurationItem "{685884CC62AC9436}" {
-     TargetStorage "Vest/Vest_ALICE_commander.et/MagPouch2/Pouch_ALICE_30rnd_STANAG.et"
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v3_wdl.et/Slot_L22/Pouch_MOLLE-M16_base.et"
+    }
+    ItemsInitConfigurationItem "{6906D30DADF48346}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v3_wdl.et/Slot_R12/Pouch_MOLLE-M16_base.et"
+    }
+    ItemsInitConfigurationItem "{6906D30DAA1D785B}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v3_wdl.et/Slot_L11/Pouch_MOLLE-Grenade_base.et"
+    }
+    ItemsInitConfigurationItem "{6906D30DBB87F8B0}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v3_wdl.et/GP_BR1/Pouch_General-Utility_base.et"
     }
     ItemsInitConfigurationItem "{685884CC61506385}" {
-     TargetStorage "Vest/Vest_ALICE_commander.et/Buttpack/Vest_ALICE_buttpack.et"
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v3_wdl.et/Slot_L13/Pouch_MOLLE-Grenade_base.et"
      PrefabsToSpawn {
-      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et" "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
+      "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6906D30E2453B08E}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v3_wdl.et/GP_BR1/Pouch_General-Utility_base.et"
+     PrefabsToSpawn {
+      "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6906D30EC50450B8}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_rifleman_v3_wdl.et/Slot_R11/Pouch_MOLLE-Grenade_bandage.et"
+     PrefabsToSpawn {
+      "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
      }
     }
    }

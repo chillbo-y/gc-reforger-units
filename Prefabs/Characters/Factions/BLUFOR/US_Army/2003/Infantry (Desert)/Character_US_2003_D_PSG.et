@@ -11,5 +11,12 @@ SCR_ChimeraCharacter : "{F7561B8F24FFD223}Prefabs/Characters/Factions/BLUFOR/US_
     IconSetName "EditableEntity_Character_Leader_Squad"
    }
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{CD3BD25A0B1117D7}Prefabs/Characters/Vests/Vest_IBA/Variants/IBA/Vest_IBA_ThroatP_v3_wdl.et"
+    }
+   }
+  }
  }
 }

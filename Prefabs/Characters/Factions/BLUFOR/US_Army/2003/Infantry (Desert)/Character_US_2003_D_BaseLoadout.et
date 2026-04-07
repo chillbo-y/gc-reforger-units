@@ -4,16 +4,19 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
    WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
   }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{384B3E26928A791A}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_3ColorDesert_cover_w_goggles.et"
+     Prefab "{4848BD3BA3326555}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_3ColorDesert_cover.et"
     }
     LoadoutSlotInfo Jacket {
      Prefab "{7D91B7C7CCAEEAD3}Prefabs/Characters/Uniforms/Jacket_US_DCU.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{B7B3BF999AB66D80}Prefabs/Characters/Vests/Vest_PASGT/Vest_PASGT_1998.et"
+     Prefab "{563CDEA16DFA9E6C}Prefabs/Characters/Vests/Vest_IBA/Variants/IBA/Vest_IBA_base_f_Collar-v2_wdl.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{DA5C1FFDF17D851F}Prefabs/Characters/Uniforms/Pants_US_DCU.et"
@@ -32,6 +35,7 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
     }
     ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
      TargetStorage "Jacket/Jacket_US_DCU.et"
+     TargetPurpose 1
     }
     ItemsInitConfigurationItem "{68AC2A2B54703C78}" {
      TargetStorage "Jacket/Jacket_US_DCU.et"

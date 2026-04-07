@@ -1,0 +1,49 @@
+GenericEntity : "{174DE37B8F2BDDDD}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_npz_rail_gp25_1p87_1p90.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{68B2CD184746E099}" {
+     SourceMaterial "mtl_rhs_wpn_ak100_barrels"
+     AssignedMaterial "{81BF80BF4FB9F082}Assets/Weapons/Rifles/ak74m/Data/mtl_rhs_wpn_ak100_barrels_camo.emat"
+    }
+    MaterialAssignClass "{68B2CD184746E092}" {
+     SourceMaterial "mtl_rhs_wpn_ak74m"
+     AssignedMaterial "{47C268BD285C9560}Assets/Weapons/Rifles/ak74m/Data/mtl_rhs_wpn_ak74m_camo.emat"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{60CC8875532C0317}" {
+     AttachmentSlot InventoryStorageSlot Handguard {
+      Prefab "{E5A398510CB8584D}Prefabs/Weapons/Attachments/Handguards/Handguard_AK74M/Handguard_AK100_camo.et"
+     }
+    }
+    AttachmentSlotComponent "{62396435324EC5B0}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot RIS_Slot {
+      Prefab "{1DAEA9434BBB003E}Prefabs/Weapons/Attachments/Optics/aimpoint_t1/Optic_t1_low.et"
+     }
+    }
+    AttachmentSlotComponent "{664E3A73A7D7E68C}" {
+     AttachmentSlot InventoryStorageSlot Stock {
+      Prefab "{0F200ED2853362AA}Prefabs/Weapons/Attachments/Stocks/Stock_AK74M_Plastic/RHS_AK74M_Stock_camo.et"
+     }
+    }
+    AttachmentSlotComponent "{664E3A73C2772446}" {
+     AttachmentSlot InventoryStorageSlot PistolGrip {
+      Prefab "{4C68604040EEE8B0}Prefabs/Weapons/Attachments/Grips/PistolGrip_AK74M_Plastic/RHS_AK74M_PistolGrip_camo.et"
+     }
+    }
+    AttachmentSlotComponent "{664E3A73E86574E4}" {
+     AttachmentSlot InventoryStorageSlot DustCover {
+      Prefab "{E5BE688C8C83318F}Prefabs/Weapons/Attachments/DustCovers/DustCover_AK74M_Standart/RHS_AK74M_DustCover_Camo.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     MagazineTemplate "{0FD71EAC637C1624}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer_camo.et"
+    }
+   }
+  }
+ }
+}

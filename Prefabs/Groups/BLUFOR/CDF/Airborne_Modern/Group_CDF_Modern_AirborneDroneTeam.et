@@ -1,0 +1,14 @@
+SCR_AIGroup : "{28C2538AD0A4338E}Prefabs/Groups/BLUFOR/CDF/Group_CDF_base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    Name "Airborne Drone Team"
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{583B904425C788A4}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_DroneCO.et" "{DADEE2C994D94DF9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_DroneDropper.et" "{DADEE2C994D94DF9}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_DroneDropper.et" "{31CD5CBCF259085B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_DroneFPV.et" "{31CD5CBCF259085B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_DroneFPV.et"
+ }
+ m_sCustomNameSet "Drones"
+}

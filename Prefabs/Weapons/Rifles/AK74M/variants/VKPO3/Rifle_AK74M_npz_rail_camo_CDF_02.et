@@ -1,0 +1,15 @@
+GenericEntity : "{7701C6F717D852C6}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_npz_rail_camo.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5D5100CE8CA5075D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot RIS_Slot {
+      Offset 0 -0.002 0.1311
+      Prefab "{DA2AED4A5F958164}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230.et"
+     }
+    }
+   }
+  }
+ }
+}

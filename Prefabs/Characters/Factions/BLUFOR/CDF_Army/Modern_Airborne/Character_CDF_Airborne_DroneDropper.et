@@ -1,0 +1,24 @@
+SCR_ChimeraCharacter : "{9275A3F9875F9498}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{F6931B751B1E16B7}UI/Textures/EditableEntities/Characters/EditableEntity_Character_DroneOperator.edds"
+   }
+   m_VariantData SCR_EditableEntityVariantData "{68C4F023A08BDEEB}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{68C4F023A08BDD1D}" {
+      m_sVariantPrefab "{7A9BA19D8A9FA72E}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Variants/Character_CDF_Airborne_DroneDropper_1.et"
+     }
+     SCR_EditableEntityVariant "{68C4F023A08BDD1C}" {
+      m_sVariantPrefab "{16CF957D365B2800}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Variants/Character_CDF_Airborne_DroneDropper_2.et"
+     }
+     SCR_EditableEntityVariant "{68C4F023A08BDD1F}" {
+      m_sVariantPrefab "{F353D9843ABEBF6B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Variants/Character_CDF_Airborne_DroneDropper_3.et"
+     }
+    }
+   }
+  }
+ }
+}

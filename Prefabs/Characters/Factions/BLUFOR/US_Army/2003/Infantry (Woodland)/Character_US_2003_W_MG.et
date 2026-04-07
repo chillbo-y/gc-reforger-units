@@ -4,6 +4,8 @@ SCR_ChimeraCharacter : "{6593B548828A7CC8}Prefabs/Characters/Factions/BLUFOR/US_
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     Name "Machine Gunner (M240B)"
+    Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
+    IconSetName ""
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
@@ -18,7 +20,7 @@ SCR_ChimeraCharacter : "{6593B548828A7CC8}Prefabs/Characters/Factions/BLUFOR/US_
      Prefab "{99B347D92F16A6D3}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_od.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{477A190AF2A17B8A}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_MG.et"
+     Prefab "{791E4C94F6E5437F}Prefabs/Characters/Vests/Vest_MOLLE_Rig/Vest_MOLLE-Rig_machinegunner_v3_wdl.et"
     }
     LoadoutSlotInfo HandWear {
      Prefab "{D19C474FA0F42CC4}Prefabs/Characters/Handwear/Gloves_Pilot_US_01/Gloves_Pilot_US_01.et"
@@ -30,10 +32,15 @@ SCR_ChimeraCharacter : "{6593B548828A7CC8}Prefabs/Characters/Factions/BLUFOR/US_
     ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
     }
     ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
-     TargetStorage "Vest/Vest_ALICE_MG.et/Suspenders/Vest_ALICE_suspenders_2.et"
     }
     ItemsInitConfigurationItem "{68597E4945A1FDB7}" {
-     TargetStorage "Vest/Vest_ALICE_MG.et/MagPouch/Pouch_ALICE_200rnd_M249.et"
+     TargetStorage "Vest/Vest_MOLLE-Rig_machinegunner_v3_wdl.et/Slot_L21/Pouch_MOLLE-MG_SAW_100rnd.et"
+     PrefabsToSpawn {
+      "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6906D30C66F23B46}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_machinegunner_v3_wdl.et/Slot_R21/Pouch_MOLLE-MG_SAW_100rnd.et"
      PrefabsToSpawn {
       "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
      }
@@ -41,11 +48,11 @@ SCR_ChimeraCharacter : "{6593B548828A7CC8}Prefabs/Characters/Factions/BLUFOR/US_
     ItemsInitConfigurationItem "{68597E48CFFE3DBF}" {
      TargetStorage "Back/Backpack_511_rush12_od.et"
      PrefabsToSpawn {
-      "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et" "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+      "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
      }
     }
     ItemsInitConfigurationItem "{68597E458958629E}" {
-     TargetStorage "Vest/Vest_ALICE_MG.et/MagPouch2/Holster_M12.et"
+     TargetStorage "Vest/Vest_MOLLE-Rig_machinegunner_v3_wdl.et/Slot_L12/Pouch_MOLLE-MG_base.et"
      PrefabsToSpawn {
       "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
      }

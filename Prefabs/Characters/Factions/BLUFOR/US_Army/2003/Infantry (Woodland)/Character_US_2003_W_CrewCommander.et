@@ -6,7 +6,7 @@ SCR_ChimeraCharacter : "{6593B548828A7CC8}Prefabs/Characters/Factions/BLUFOR/US_
     SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
      InitialStorageSlots {
       SCR_EquipmentStorageSlot BinocularSlot {
-       Prefab "{F2539FA5706E51E4}Prefabs/Items/Equipment/Binoculars/Binoculars_B12/Binoculars_B12.et"
+       Prefab "{0CF54B9A85D8E0D4}Prefabs/Items/Equipment/Binoculars/Binoculars_M22/Binoculars_M22.et"
       }
      }
     }
@@ -26,8 +26,14 @@ SCR_ChimeraCharacter : "{6593B548828A7CC8}Prefabs/Characters/Factions/BLUFOR/US_
     LoadoutSlotInfo Hat {
      Prefab "{DA1912123AECBD97}Prefabs/Characters/HeadGear/Helmet_CVC_01/Helmet_CVC_01_olive.et"
     }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{602739DE89AC4BD7}Prefabs/Characters/Vests/Vest_IBA/Variants/OTV/Vest_OTV_CollarP_v2_wdl.et"
+    }
     LoadoutSlotInfo Back {
      Prefab "{78AD6277BCA654C4}Prefabs/Items/Equipment/Radios/US/Radio_M81_GC_PRC119.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{A59AC106AB000F4D}Prefabs/Characters/Vests/Vest_MOLLE_Rig/Vest_MOLLE-Rig_crew_v2.et"
     }
    }
   }
@@ -38,9 +44,12 @@ SCR_ChimeraCharacter : "{6593B548828A7CC8}Prefabs/Characters/Factions/BLUFOR/US_
       "{389ACBD8C4991F75}Prefabs/Items/Equipment/Radios/US/Squad Radio/Radio_ANPRC343_PRR.et"
      }
     }
-    ItemsInitConfigurationItem "{68AC2A2B02C1A8CD}" {
-     PrefabsToSpawn + {
-      "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et"
+    ItemsInitConfigurationItem "{68AC2A2B54703C78}" {
+    }
+    ItemsInitConfigurationItem "{6906D30935B8BDBB}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_crew_v2.et/Slot_R12/Pouch_MOLLE-M4-Three_base.et"
+     PrefabsToSpawn {
+      "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et"
      }
     }
    }

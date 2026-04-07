@@ -1,0 +1,14 @@
+GenericEntity : "{03DBD65A6A91E23B}Prefabs/Vehicles/Wheeled/M998/VehParts/GC_M1151_roof_M2HB.et" {
+ ID "672EDBFBD09A1100"
+ components {
+  SlotManagerComponent "{672EDBFBD09A1E84}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 -0.2816 0.303
+     Prefab "{2E220937907E1278}Prefabs/Vehicles/Wheeled/IvecoLMV/VehParts/Turret/LMV_gun_mount_MK19_Shield.et"
+    }
+   }
+  }
+ }
+ coords 6.151 -4.137 2.184
+}

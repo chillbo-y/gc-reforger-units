@@ -1,0 +1,14 @@
+GenericEntity {
+ ID "690CF50343A5AC5E"
+ components {
+  MeshObject "{690CF50343A5AC66}" {
+   Object "{1632C982A4F06F99}Assets/Characters/Pants/Pants_CP_G3/rhs_cp_g3_pants_base.xob"
+   Materials {
+    MaterialAssignClass "{690CF50343A59B0B}" {
+     SourceMaterial "rhs_cp_g3_pants"
+     AssignedMaterial "{CA24F4896773F83B}Assets/Characters/Pants/Pants_CP_G3/Data/rhs_cp_g3_pants_MC_BLK.emat"
+    }
+   }
+  }
+ }
+}

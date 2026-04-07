@@ -1,0 +1,8 @@
+GenericEntity : "{74369C511864A660}Prefabs/Weapons/Explosives/Mine_L9A1_Barmine/Mine_L9A1_Barmine.et" {
+ ID "5968D2B6A82C6019"
+ components {
+  SCR_PressureTriggerComponent "{59E6BE151DCC9953}" {
+   m_bLive 1
+  }
+ }
+}

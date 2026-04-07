@@ -1,0 +1,12 @@
+Vehicle : "{0F200E9F3D3AD906}Prefabs/Vehicles/Wheeled/JLTV/OGPK/M2HB/JLTV_OGPK_Woodland_MDO.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{5BF27AB54D2AC7CC}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/M2/JLTV_OGPK_M2_PAS_O.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,7 @@
+SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
+ ID "0000000000000001"
+ m_faction "RHS_ION"
+ m_aUnitPrefabSlots {
+  "{10F80A443AE30B36}Prefabs/Characters/Factions/INDFOR/RHS_ION/Black_Static/Character_RHS_ION_GC_BlackStatic_SquadLeader.et" "{DBBF798434411296}Prefabs/Characters/Factions/INDFOR/RHS_ION/Black_Static/Character_RHS_ION_GC_BlackStatic_Rifleman1.et" "{E19FDF9ECE19044B}Prefabs/Characters/Factions/INDFOR/RHS_ION/Black_Static/Character_RHS_ION_GC_BlackStatic_Rifleman2.et" "{04039367C2FC9320}Prefabs/Characters/Factions/INDFOR/RHS_ION/Black_Static/Character_RHS_ION_GC_BlackStatic_Rifleman3.et" "{32D893B2C558D590}Prefabs/Characters/Factions/INDFOR/RHS_ION/Black_Static/Character_RHS_ION_GC_BlackStatic_TeamLeader.et" "{3937B65FB7901A17}Prefabs/Characters/Factions/INDFOR/RHS_ION/Black_Static/Character_RHS_ION_GC_BlackStatic_Rifleman4.et" "{DCABFAA6BB758D7C}Prefabs/Characters/Factions/INDFOR/RHS_ION/Black_Static/Character_RHS_ION_GC_BlackStatic_Rifleman5.et" "{4223403096F519CD}Prefabs/Characters/Factions/INDFOR/RHS_ION/Black_Static/Character_RHS_ION_GC_BlackStatic_DesignatedMarksman.et" "{146E7754E4D3904C}Prefabs/Characters/Factions/INDFOR/RHS_ION/Black_Static/Character_RHS_ION_GC_BlackStatic_Medic.et"
+ }
+}

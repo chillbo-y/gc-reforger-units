@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{B23222C2E4BA8FE2}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_npz_rail_gp25_camo_CDF.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

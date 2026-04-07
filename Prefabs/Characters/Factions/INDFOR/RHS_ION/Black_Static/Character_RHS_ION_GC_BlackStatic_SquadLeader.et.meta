@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{10F80A443AE30B36}Prefabs/Characters/Factions/INDFOR/RHS_ION/Uniformed_Division_2.0/Character_RHS_ION_GC_BlackStatic_SquadLeader.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

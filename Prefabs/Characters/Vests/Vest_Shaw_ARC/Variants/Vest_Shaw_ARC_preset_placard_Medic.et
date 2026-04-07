@@ -1,0 +1,125 @@
+GenericEntity : "{BC7FE8DD442A42A1}Prefabs/Characters/Vests/Vest_Shaw_ARC/Variants/Vest_Shaw_ARC_preset_base.et" {
+ ID "6584F7DC1A90A8C7"
+ components {
+  RHS_ClothNodeStorageComponent "{6584F7DC1A90A8BF}" {
+   Attributes SCR_ItemAttributeCollection "{6584F7DC1A90A8B9}" {
+    ItemDisplayName UIInfo "{6584F7DC1A90A8A4}" {
+     Name "#RHS-Vest_Preset_Prefix #RHS-Vest_Shaw_ARC_Name [1] - #RHS-Camo_MULTICAM #RHS-Color_BLK"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{6584F7DC1A90A88E}" {
+   Slots {
+    LoadoutSlotInfo placard {
+     PivotID "Spine5"
+     Offset -0.0028 0.0022 0.189
+     Angles -4.9241 0 0
+     MergePhysics 1
+     Prefab "{FD897D70EAD0FE60}Prefabs/Characters/Vests/Vest_Shaw_ARC_Pouches/Pouch_Shaw_Placard_Elastic.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo raid {
+     PivotID "Spine5"
+     Offset 0 -0.1314 0.2042
+     Angles -0.5745 0 0
+     MergePhysics 1
+     Prefab "{61FA86B2349771A6}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_Raid_MCBlk.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo flex1 {
+     PivotID "Spine5"
+     Offset -0.1893 0.1 0.0901
+     Angles -6.2508 17.4755 -3.919
+     MergePhysics 1
+     Prefab "{42803A2880386367}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_MCBlk.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo medkit {
+     PivotID "Spine5"
+     Offset 0.2323 0.033 0.0186
+     Angles 2.7116 82.73619 -5.6763
+     MergePhysics 1
+     Prefab "{A666C7EA6A873558}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Bleeder_MCBlk.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo admin {
+     PivotID "Spine5"
+     Offset 0 0.1921 0.1836
+     Angles -7.2132 0 0
+     MergePhysics 1
+     Prefab "{2977DB904383A3DB}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Shaw_ARC_Admin_MC_Blk.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo pistol {
+     PivotID "Spine5"
+     Offset 0.1824 0.0023 0.1032
+     Angles -5.6708 -7.0135 -2.7231
+     MergePhysics 1
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo pistol2 {
+     PivotID "Spine5"
+     Offset 0.0782 -0.0312 0.23
+     Angles -0.0547 -85.187 3.0661
+     MergePhysics 1
+     Prefab "{EC30B9F4596F1E57}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MCBlk.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo pistol3 {
+     PivotID "Spine5"
+     Offset -0.0027 -0.0273 0.2359
+     Angles 0.1568 -89.1366 2.7673
+     MergePhysics 1
+     Prefab "{EC30B9F4596F1E57}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MCBlk.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo mbzt {
+     PivotID "Spine1"
+     Offset 0.1561 0.0311 -0.0829
+     Angles -5.7152 -37.3372 -0.0587
+     Prefab "{DB08308A11F0A1FA}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_ifak.et"
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo mbyt2 {
+     PivotID "Spine1"
+     Offset 0.0475 0.0283 -0.1574
+     Angles 9.3039 175.37511 3.1443
+     Prefab "{70FC7E1299068D0E}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP103_Medkit_OD.et"
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo pouch {
+     PivotID "Spine1"
+     Offset 0.148 0.0037 0.0711
+     Angles 3.1707 64.7501 -4.3233
+     Prefab "{658C2BC6EDE545DE}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MCBlk.et"
+     InspectionWidgetOffset 0 -6 0
+    }
+   }
+   WornModel "{A4E83A492D38C896}Assets/Characters/Belts/Belt_Ronin/ronin_shuto.xob"
+   WornMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+   ItemModel "{11A0D08496A1A535}Assets/Characters/Belts/Belt_Ronin/ronin_shuto_ground.xob"
+   ItemMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+   DebugWornModel 0
+  }
+ }
+}

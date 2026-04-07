@@ -1,0 +1,12 @@
+GenericEntity : "{5651CC8791FF8A87}Prefabs/Characters/Vests/Vest_MOLLE_Rig/Vest_MOLLE-Rig_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Slot_R22 {
+     Prefab ""
+    }
+   }
+  }
+ }
+}

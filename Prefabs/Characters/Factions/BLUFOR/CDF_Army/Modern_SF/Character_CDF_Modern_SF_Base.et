@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{7A9EE19AB67B298B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_base.et" {
+SCR_ChimeraCharacter : "{46ED63B79A974103}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Character_CDF_Base.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -12,14 +12,10 @@ SCR_ChimeraCharacter : "{7A9EE19AB67B298B}Prefabs/Characters/Factions/INDFOR/FIA
     }
    }
   }
-  FactionAffiliationComponent "{555C98D1CD949F3E}" {
-   "faction affiliation" "GC_CDF"
-  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     m_sFaction "GC_CDF"
-    m_aAuthoredLabels {
-     GROUPSIZE_SMALL ENTITYTYPE_CHARACTER FACTION_GC_CDF
+    m_aAuthoredLabels +{
     }
    }
   }

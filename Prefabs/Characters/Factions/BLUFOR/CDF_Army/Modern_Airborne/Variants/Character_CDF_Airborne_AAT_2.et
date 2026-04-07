@@ -1,0 +1,98 @@
+SCR_ChimeraCharacter : "{9275A3F9875F9498}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Modern_Airborne/Character_CDF_Airborne_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_AntiTankAssistant"
+    Icon "{FB48FAD32DA8BC91}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_AmmoBearer.edds"
+    m_Image "{5E3BDEFE331DDF53}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_AAT.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{E3FD7B51E0F21123}Prefabs/Weapons/Rifles/AR15/Rifle_Pronto_C8A1_BLK_CDF.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{C8E2AC206E2F5665}Prefabs/Characters/HeadGear/Helmet_ECH/Helmet_ECH_hc_v_r_p_cmc.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{85AB22BE00E4FF80}Prefabs/Characters/Uniforms/Jacket_PCU_L5/Jacket_PCU_L5_Green.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{6BEC572D4E71CBED}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_MC.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{B3A77D1B193C84D4}Prefabs/Characters/Uniforms/Pants_CCUE/Pants_CCUE_Multicam.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{F68F4352DA8882E6}Prefabs/Characters/Footwear/CombatBoots_Rocky_S2Vs.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{6A39B5843B3F36DA}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{7E2DB938F7348CDC}Prefabs/Characters/Vests/Vest_AVS/Variants/Vest_AVS_okinawa_Coy_6x9_2.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{90F453860CFEE78D}Prefabs/Characters/Handwear/Gloves_511_Competition/Gloves_511_Comp_MC.et"
+    }
+    LoadoutSlotInfo Face {
+     Prefab "{75F3ED41A7F79D93}Prefabs/Characters/HeadGear/Masks/Masks_Keela_Snood/Masks_Keela_Snood_MC.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68A76183928056FF}" {
+     TargetStorage "Pants/Pants_CCUE_Multicam.et"
+    }
+    ItemsInitConfigurationItem "{68B1631B3C4B9FB7}" {
+     TargetStorage "Jacket/Jacket_PCU_L5_Green.et"
+    }
+    ItemsInitConfigurationItem "{68C490B4C9BED470}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_Coy_6x9_2.et/Pouch1/Pouch_avs_front_closed_Coy.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68C490B4C9BED478}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_Coy_6x9_2.et/nerd/Pouch_FILBE_doubleM4_3.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68C490B4C9BED407}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_Coy_6x9_2.et/tako/Pouch_FILBE_doubleM4_2.et"
+     PrefabsToSpawn {
+      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68C490B4C9BED405}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_Coy_6x9_2.et/m18_1/Pouch_Filbe_M67_2.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68C490B4C9BED404}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_Coy_6x9_2.et/m67_1/Pouch_Highspeed_Pistol.et"
+     PrefabsToSpawn {
+      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68C490B4C9BED403}" {
+     TargetStorage "Vest/Vest_AVS_okinawa_Coy_6x9_2.et/m18_2/Pouch_Filbe_M18_1.et"
+     PrefabsToSpawn {
+      "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68C490B4C9BED402}" {
+     TargetStorage "Back/Backpack_RPG_Assistant.et"
+     PrefabsToSpawn {
+      "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et" "{609E216CBF8D0B68}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VL.et" "{4A3B196E4EA820E9}Prefabs/Weapons/Ammo/RPG/RHS_AmmoRocket_OG7V.et"
+     }
+    }
+   }
+  }
+ }
+}

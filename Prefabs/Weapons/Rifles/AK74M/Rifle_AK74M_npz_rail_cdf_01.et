@@ -1,0 +1,14 @@
+GenericEntity : "{B02FA54EB2427627}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_npz_rail.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5D5100CE8CA5075D}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot RIS_Slot {
+      Prefab "{617720FD353E3574}Prefabs/Weapons/Attachments/Optics/Collimators/Optic_AimpointMicroH2/Collim_AimpointMicroH2.et"
+     }
+    }
+   }
+  }
+ }
+}

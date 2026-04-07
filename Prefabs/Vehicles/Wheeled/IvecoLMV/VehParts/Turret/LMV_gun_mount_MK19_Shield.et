@@ -1,0 +1,11 @@
+Turret : "{5FBCB8D8738061F0}Prefabs/Vehicles/Wheeled/IvecoLMV/VehParts/Turret/LMV_gun_mount_M2HB_Shield.et" {
+ ID "51ACD0965653D003"
+ components {
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset 0 -0.1794 0
+   }
+   WeaponTemplate "{4B09493F5B13BBE9}Prefabs/Weapons/HeavyWeapons/MK19/GL_MK19_pintle_M1151_Woodland.et"
+  }
+ }
+}

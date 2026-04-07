@@ -26,10 +26,14 @@ SCR_ChimeraCharacter : "{C2D1F12C893279D2}Prefabs/Characters/Factions/BLUFOR/US_
     LoadoutSlotInfo Hat {
      Prefab "{1608873B6690044C}Prefabs/Characters/HeadGear/Helmet_CVC_01/Helmet_CVC_01.et"
     }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{602739DE89AC4BD7}Prefabs/Characters/Vests/Vest_IBA/Variants/OTV/Vest_OTV_CollarP_v2_wdl.et"
+    }
     LoadoutSlotInfo Back {
      Prefab "{78AD6277BCA654C4}Prefabs/Items/Equipment/Radios/US/Radio_M81_GC_PRC119.et"
     }
     LoadoutSlotInfo Vest {
+     Prefab "{A59AC106AB000F4D}Prefabs/Characters/Vests/Vest_MOLLE_Rig/Vest_MOLLE-Rig_crew_v2.et"
     }
    }
   }
@@ -41,8 +45,11 @@ SCR_ChimeraCharacter : "{C2D1F12C893279D2}Prefabs/Characters/Factions/BLUFOR/US_
      }
     }
     ItemsInitConfigurationItem "{68AC2A2B54703C78}" {
-     PrefabsToSpawn + {
-      "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et"
+    }
+    ItemsInitConfigurationItem "{6906D30935B8BDBB}" {
+     TargetStorage "Vest/Vest_MOLLE-Rig_crew_v2.et/Slot_R12/Pouch_MOLLE-M4-Three_base.et"
+     PrefabsToSpawn {
+      "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et"
      }
     }
    }

@@ -1,0 +1,91 @@
+GenericEntity : "{158F912CFD723FC1}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_Loadout_base.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Object "{D69760DB4614F2D5}Assets/Characters/Belts/Belt_Okinawa/Okinawa_belt_ground.xob"
+  }
+  RHS_ClothNodeStorageComponent "{5DEB2A8AB559C576}" {
+   Attributes SCR_ItemAttributeCollection "{5DEB2A8AB559C568}" {
+    ItemDisplayName UIInfo "{5DEB2A8AB559C56B}" {
+     Name "#RHS-Vest_Preset_Prefix #RHS-Vest_JPC_Name [6] - #RHS-Camo_MULTICAM #RHS-Color_BLK"
+     Description "#RHS-Vest_JPC_Description"
+    }
+   }
+   MaxCumulativeVolume 100
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Pouch1 {
+     PivotID "Spine5"
+     Offset 0 0.0626 0.1632
+     Angles -3.0348 0 0
+     MergePhysics 1
+     Prefab "{2160B3182002C9FD}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_avs_front_closed_MCBlk.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo hsgi {
+     PivotID "Spine1"
+     Offset 0.1842 0.0363 -0.1271
+     Angles 5.6638 134.3347 -0.7683
+     Prefab "{A666C7EA6A873558}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Bleeder_MCBlk.et"
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo pistol {
+     PivotID "Spine1"
+     Offset 0.1905 0.0259 0.0569
+     Angles -7.6883 -28.5624 -7.9522
+     Prefab "{EC30B9F4596F1E57}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MCBlk.et"
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo pistol2 {
+     PivotID "Spine1"
+     Offset 0.1629 0.0193 0.1032
+     Angles -4.2965 -39.3151 -6.7258
+     Prefab "{EC30B9F4596F1E57}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_Highspeed_Pistol_MCBlk.et"
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo mbiyt {
+     PivotID "Spine5"
+     Offset -0.1887 0.1316 -0.1
+     Angles -3.3289 -19.7955 2.1452
+     MergePhysics 1
+     Prefab "{42803A2880386367}Prefabs/Characters/Vests/Vest_JPC_Pouches/Pouch_AVS_MBITR_Radio_MCBlk.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo Tako {
+     PivotID "Spine1"
+     Offset -0.1375 0.003 0.0776
+     Angles 4.85 -54.7443 3.7305
+     Prefab "{658C2BC6EDE545DE}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MCBlk.et"
+     InspectionWidgetOffset 0 -6 0
+    }
+    LoadoutSlotInfo tako2 {
+     PivotID "Spine1"
+     Offset -0.1768 0.0074 0.0074
+     Angles 5.9506 -78.9772 1.4154
+     Prefab "{658C2BC6EDE545DE}Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_PCGEN3_takoPouch_MCBlk.et"
+     InspectionWidgetOffset 0 -6 0
+    }
+   }
+   WornModel "{A4E83A492D38C896}Assets/Characters/Belts/Belt_Ronin/ronin_shuto.xob"
+   WornMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+   ItemModel "{11A0D08496A1A535}Assets/Characters/Belts/Belt_Ronin/ronin_shuto_ground.xob"
+   ItemMaterialsOverride {
+    "{E637414720C59111}Assets/Characters/Belts/Belt_Ronin/Data/ronin_shuto_MCBlk.emat"
+   }
+   DebugWornModel 0
+   DepthBack -0.04
+   DepthLeft 0.03
+   AreaOcludders {
+    "ChestLeftBottomFront"
+   }
+  }
+ }
+ coords 72.73 1 173.18
+}

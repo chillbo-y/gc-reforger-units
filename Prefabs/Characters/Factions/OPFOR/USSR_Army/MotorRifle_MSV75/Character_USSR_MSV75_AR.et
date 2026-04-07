@@ -1,0 +1,40 @@
+SCR_ChimeraCharacter : "{68FED29F7982B6FB}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_MSV75/Character_USSR_MSV75_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_AutomaticRifleman"
+    Icon "{EF1F445746A3391A}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_MachineGunner.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{3BFBE9145E9C40BA}Prefabs/Weapons/MachineGuns/RPK/BC_RPK.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+     Prefab "{4711A4CAF64C4CEE}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_AR.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68F6FE8DE063E108}" {
+     TargetStorage "Vest/Vest_SovietHarness_AR.et/GrenadePouch/Pouch_Soviet_45rnd_RPK74.et"
+    }
+    ItemsInitConfigurationItem "{68F6FE8DDE9F64AA}" {
+     TargetStorage "Vest/Vest_SovietHarness_AR.et/MagPouch_6Sh46/Pouch_Soviet_45rnd_RPK74.et"
+     PrefabsToSpawn {
+      "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et" "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et" "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et" "{9A0E9828AEEBA8B0}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68FB226A11C972FD}" {
+     TargetStorage "Jacket/ARY_Jacket_M69_base.et"
+     PrefabsToSpawn {
+      "{BCBD3E254B988F87}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Tracer.et" "{BCBD3E254B988F87}Prefabs/Weapons/Magazines/RPK/BC_Magazine_762x39_RPK_40rnd_Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

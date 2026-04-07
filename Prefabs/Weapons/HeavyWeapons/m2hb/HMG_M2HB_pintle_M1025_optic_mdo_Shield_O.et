@@ -1,0 +1,12 @@
+GenericEntity : "{E8867CF82D502760}Prefabs/Weapons/HeavyWeapons/m2hb/HMG_M2HB_pintle_M1025_optic_mdo_Shield.et" {
+ ID "476AE74DE20E1061"
+ components {
+  SlotManagerComponent "{62115282D57A9676}" {
+   Slots {
+    EntitySlotInfo Shield {
+     Prefab "{56B53243D7F72F68}Prefabs/Vehicles/Wheeled/IvecoLMV/VehParts/Turret/Gun_Shield_IvecoLMV.et"
+    }
+   }
+  }
+ }
+}

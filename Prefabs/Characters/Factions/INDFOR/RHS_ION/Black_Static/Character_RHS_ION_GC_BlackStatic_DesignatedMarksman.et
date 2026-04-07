@@ -1,0 +1,79 @@
+SCR_ChimeraCharacter : "{8CCAB0FA43055A87}Prefabs/Characters/Factions/INDFOR/RHS_ION/Black_Static/Character_RHS_ION_GC_BlackStatic_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Sharpshooter"
+    Icon "{0A78405E73C36477}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Sharpshooter.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{BD51CAC6B9DD34D1}Prefabs/Weapons/Rifles/M4A1/Variants/ION/Rifle_M4A1_BLOCK_II_ION_DMR.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate "{8983A91174EE3799}Prefabs/Weapons/Handguns/Glock/Handgun_Glock45.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{98223DFBD28C5832}Prefabs/Characters/HeadGear/Helmet_Exfil/Variants/ION_MC_BLK/Helmet_Exfil_Blk_ION6.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{DCFAD802CF90F4B8}Prefabs/Characters/Vests/Vest_Shaw_ARC/Vest_Shaw_ARC_MC_Blk.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{7A34C1ECBC53F4AE}Prefabs/Characters/Vests/Vest_Shaw_ARC/Variants/Vest_Shaw_ARC_preset_placard2.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{974EA340B1751B24}Prefabs/Characters/Handwear/Gloves_MechanixMpact/Gloves_mpack_WolfGrey.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{690CF54064E85022}" {
+     TargetStorage "Vest/Vest_Shaw_ARC_preset_placard2.et/placard/Pouch_Shaw_Placard_3Mags_MC_Blk.et"
+     PrefabsToSpawn {
+      "{ACDC61D2D0D89178}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_M995.et" "{ACDC61D2D0D89178}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_M995.et" "{ACDC61D2D0D89178}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_M995.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690CF54005ED986D}" {
+     TargetStorage "Vest/Vest_Shaw_ARC_preset_placard2.et/flex1/Pouch_PCGEN3_takoPouch_MCBlk.et"
+     PrefabsToSpawn {
+      "{ACDC61D2D0D89178}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_M995.et" "{ACDC61D2D0D89178}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_M995.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690CF5401EBFF2E3}" {
+     TargetStorage "Vest/Vest_Shaw_ARC_preset_placard2.et/pouch/Pouch_PCGEN3_takoPouch_MCBlk.et"
+     PrefabsToSpawn {
+      "{ACDC61D2D0D89178}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_M995.et" "{ACDC61D2D0D89178}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_M995.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690CF540206F5047}" {
+     TargetStorage "Vest/Vest_Shaw_ARC_preset_placard2.et/pistol2/Pouch_Highspeed_Pistol_MCBlk.et"
+     PrefabsToSpawn {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690CF540362022F0}" {
+     TargetStorage "Vest/Vest_Shaw_ARC_preset_placard2.et/pistol3/Pouch_Highspeed_Pistol_MCBlk.et"
+     PrefabsToSpawn {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690CF540D28F13C0}" {
+     TargetStorage "Vest/Vest_Shaw_ARC_preset_placard2.et/grn/Minimap_JPC_ZipOnPanel2.0_RGR.et"
+     PrefabsToSpawn {
+      "{ACDC61D2D0D89178}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_M995.et" "{ACDC61D2D0D89178}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_20rnd_M995.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et"
+     }
+    }
+    ItemsInitConfigurationItem "{690CF540F057A77A}" {
+     TargetStorage "Vest/Vest_Shaw_ARC_preset_placard2.et/Radio/Pouch_AVS_MBITR_Radio_MCBlk.et"
+     PrefabsToSpawn {
+      "{D69684663E89D6EA}Prefabs/Items/Equipment/Radios/US/Radio_ANPRC152A_OLD.et"
+     }
+    }
+   }
+  }
+ }
+}

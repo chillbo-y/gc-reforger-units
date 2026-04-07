@@ -1,0 +1,8 @@
+Turret : "{8D9DD29EBFA08DA6}Prefabs/Vehicles/Wheeled/JLTV/VehParts/Turrets/JLTV_OGPK_M2.et" {
+ ID "51ACD0965653D003"
+ components {
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{E8867CF82D502760}Prefabs/Weapons/HeavyWeapons/m2hb/HMG_M2HB_pintle_M1025_optic_mdo_Shield.et"
+  }
+ }
+}

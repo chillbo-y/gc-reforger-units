@@ -4,5 +4,11 @@ SCR_ChimeraCharacter : "{B418034A4B80ECB7}Prefabs/Characters/Factions/BLUFOR/RHS
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{8E9E6176B622441D}Prefabs/Weapons/Rifles/M16/Rifle_M16A4_Covers_CCO.et"
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Vest {
+    }
+   }
+  }
  }
 }

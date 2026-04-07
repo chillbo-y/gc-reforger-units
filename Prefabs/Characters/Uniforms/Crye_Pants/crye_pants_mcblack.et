@@ -1,0 +1,45 @@
+GameEntity : "{92B915606F93CA84}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Object "{1632C982A4F06F99}Assets/Characters/Pants/Pants_CP_G3/rhs_cp_g3_pants_base.xob"
+   Materials {
+    MaterialAssignClass "{690CF503A1B90D44}" {
+     SourceMaterial "rhs_cp_g3_pants"
+     AssignedMaterial "{CA24F4896773F83B}Assets/Characters/Pants/Pants_CP_G3/Data/rhs_cp_g3_pants_MC_BLK.emat"
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{64D170D63056B0E6}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{64D170D6328B4559}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{64D170D62DAEFCCE}" {
+      m_AffiliatedFactionKey "RHS_ION"
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "#RHS-Uniform_CRYE_Combat_Pants_Name - #RHS-Camo_MULTICAM  #RHS-Color_BLK"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      PreviewModel "{DF361A86BC75CEB6}Prefabs/Characters/Uniforms/Crye_Pants/Crye_Pants_mcblack_wear.et"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornModel "{1632C982A4F06F99}Assets/Characters/Pants/Pants_CP_G3/rhs_cp_g3_pants_base.xob"
+   WornMaterialsOverride {
+    "{CA24F4896773F83B}Assets/Characters/Pants/Pants_CP_G3/Data/rhs_cp_g3_pants_MC_BLK.emat"
+   }
+   ItemMaterialsOverride {
+    "{CA24F4896773F83B}Assets/Characters/Pants/Pants_CP_G3/Data/rhs_cp_g3_pants_MC_BLK.emat"
+   }
+  }
+ }
+ coords 982.012 51 2269.215
+}

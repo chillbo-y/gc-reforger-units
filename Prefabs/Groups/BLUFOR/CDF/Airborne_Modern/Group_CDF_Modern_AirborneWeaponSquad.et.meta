@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{0C678D09E8727B08}Prefabs/Groups/BLUFOR/CDF/Airborne_Modern/Group_CDF_Modern_AirborneWeaponSquad.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}
